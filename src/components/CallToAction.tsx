@@ -15,7 +15,7 @@ export function CallToAction() {
           </h2>
 
           <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
-            Выберите модель из каталога или закажите мангал по своим размерам. Ответим быстро и поможем с доставкой.
+            Выберите модель из каталога или закажите мангал по своим размерам. Готовы воплотить любую идею заказчика и подобрать решение под ваш бюджет. Ответим быстро и поможем с доставкой.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
