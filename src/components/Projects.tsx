@@ -34,6 +34,22 @@ const projects = [
     year: "от 9 900 ₽",
     image: "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/608629b1-4355-4995-adc6-192aae91e5ce.jpg",
   },
+  {
+    id: 5,
+    title: "Качели «Лофт»",
+    category: "Садовые качели",
+    location: "Сталь и дерево",
+    year: "от 19 900 ₽",
+    image: "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/6ef90b39-cfb0-45c3-b90a-1f14cea6f3ab.jpg",
+  },
+  {
+    id: 6,
+    title: "Комплект «Брутал»",
+    category: "Садовая мебель",
+    location: "Стол и лавки",
+    year: "от 27 900 ₽",
+    image: "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/25092e31-a32a-4942-9aa9-201e7c05d656.jpg",
+  },
 ]
 
 export function Projects() {
