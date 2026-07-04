@@ -15,15 +15,15 @@ export function CallToAction() {
           </h2>
 
           <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
-            Давайте обсудим, как воплотить вашу идею в жизнь. Каждое великое пространство начинается с разговора.
+            Расскажите о своей идее — и мы предложим концепцию. Каждый выдающийся проект начинается с одного разговора.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:hello@prostranstvo.ru"
+              href="mailto:studio@hously.ru"
               className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group"
             >
-              Начать диалог
+              Обсудить проект
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a

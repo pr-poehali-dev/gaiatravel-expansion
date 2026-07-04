@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Мы верим, что дизайн начинается с людей. За каждым проектом стоит история, привычки и мечты тех, кто будет здесь жить и работать. Наша задача — превратить их в пространство.
             </p>
 
             {philosophyItems.map((item, index) => (
