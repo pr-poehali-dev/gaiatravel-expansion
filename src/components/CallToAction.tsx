@@ -6,31 +6,31 @@ export function CallToAction() {
     <section id="contact" className="py-32 md:py-29 bg-foreground text-primary-foreground">
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Начать проект</p>
+          <p className="text-primary-foreground/60 text-sm tracking-[0.3em] uppercase mb-8">Заказать мангал</p>
 
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-medium leading-[1.1] tracking-tight mb-8 text-balance">
-            Готовы создать
+            Готовы устроить
             <br />
-            нечто <HighlightedText>выдающееся</HighlightedText>?
+            настоящую <HighlightedText>Зону Жарки</HighlightedText>?
           </h2>
 
           <p className="text-primary-foreground/70 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto">
-            Расскажите о своей идее — и мы предложим концепцию. Каждый выдающийся проект начинается с одного разговора.
+            Выберите модель из каталога или закажите мангал по своим размерам. Ответим быстро и поможем с доставкой.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:studio@hously.ru"
+              href="https://t.me/fryingzone"
               className="inline-flex items-center justify-center gap-3 bg-primary-foreground text-foreground px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/90 transition-colors duration-300 group"
             >
-              Обсудить проект
+              Написать в Telegram
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="tel:+74951234567"
+              href="tel:+79991234567"
               className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 px-8 py-4 text-sm tracking-wide hover:bg-primary-foreground/10 transition-colors duration-300"
             >
-              Назначить звонок
+              Позвонить
             </a>
           </div>
         </div>

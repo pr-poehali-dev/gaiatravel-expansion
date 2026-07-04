@@ -33,15 +33,16 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+          <span className="text-sm font-medium tracking-wide text-white">@fryingzone</span>
+          <span className="text-xs text-white/60">Зона Жарки</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
           {[
             { label: "Главная", href: "#hero" },
-            { label: "Философия", href: "#about" },
-            { label: "Проекты", href: "#projects" },
-            { label: "Услуги", href: "#services" },
+            { label: "О нас", href: "#about" },
+            { label: "Каталог", href: "#projects" },
+            { label: "Преимущества", href: "#services" },
             { label: "Вопросы", href: "#faq" },
           ].map((item) => (
             <li key={item.label}>
@@ -64,7 +65,7 @@ export function Header() {
               : "bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white",
           )}
         >
-          Связаться
+          Заказать
         </a>
 
         <button
@@ -96,9 +97,9 @@ export function Header() {
           <ul className="flex flex-col gap-6 mb-8">
             {[
               { label: "Главная", href: "#hero" },
-              { label: "Философия", href: "#about" },
-              { label: "Проекты", href: "#projects" },
-              { label: "Услуги", href: "#services" },
+              { label: "О нас", href: "#about" },
+              { label: "Каталог", href: "#projects" },
+              { label: "Преимущества", href: "#services" },
               { label: "Вопросы", href: "#faq" },
             ].map((item) => (
               <li key={item.label}>
@@ -118,7 +119,7 @@ export function Header() {
             className="inline-flex items-center justify-center gap-2 text-sm px-5 py-2.5 bg-white text-foreground border border-foreground/20 hover:bg-foreground hover:text-white transition-all duration-300 mb-4"
             onClick={closeMobileMenu}
           >
-            Связаться
+            Заказать
           </a>
         </div>
       </div>

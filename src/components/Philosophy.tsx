@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Толстый металл",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Используем сталь от 3 мм — мангал не прогорает годами и держит жар стабильно, для сочного шашлыка каждый раз.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Собственное производство",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Варим и красим мангалы на своей площадке — без посредников. Поэтому цена честная, а качество под нашим контролем.",
   },
   {
-    title: "Естественная динамика",
+    title: "Удобство в быту",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Складные ножки, ручки для переноски, продуманная высота углей — мангал легко перевозить и хранить.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Гарантия и сервис",
+    description: "Даём гарантию на сварные швы и покрытие. Если что-то не так — заменим или отремонтируем бесплатно.",
   },
 ]
 
@@ -53,18 +53,18 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">О нас</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Мангалы с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>характером</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
-                src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
-                className="opacity-90 relative z-10 w-auto"
+                src="https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/b7b87ae9-65de-438b-8a52-2e1c4652c3f2.jpg"
+                alt="Мангал в саду на закате"
+                className="opacity-90 relative z-10 w-full rounded-sm"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Мы верим, что дизайн начинается с людей. За каждым проектом стоит история, привычки и мечты тех, кто будет здесь жить и работать. Наша задача — превратить их в пространство.
+              Мы — команда @fryingzone, Зона Жарки. Делаем мангалы для тех, кто любит собираться с друзьями у огня. Каждый мангал варим сами и проверяем перед отправкой.
             </p>
 
             {philosophyItems.map((item, index) => (

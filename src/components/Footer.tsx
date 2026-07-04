@@ -5,21 +5,22 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="md:col-span-2">
-            <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+            <a href="/" className="inline-flex items-baseline gap-2 mb-6">
+              <span className="text-sm font-medium tracking-wide">@fryingzone</span>
+              <span className="text-xs text-muted-foreground">Зона Жарки</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Архитектура и дизайн интерьеров. Мы создаём пространства, где форма, свет и характер встречаются в гармонии.
+              Мангалы от производителя. Толстая сталь, честная цена и гарантия на каждое изделие.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Студия</h4>
+            <h4 className="text-sm font-medium mb-4">Меню</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#projects" className="hover:text-foreground transition-colors">
-                  Проекты
+                  Каталог
                 </a>
               </li>
               <li>
@@ -29,7 +30,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#services" className="hover:text-foreground transition-colors">
-                  Услуги
+                  Преимущества
                 </a>
               </li>
               <li>
@@ -45,17 +46,17 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:studio@hously.ru" className="hover:text-foreground transition-colors">
-                  studio@hously.ru
+                <a href="mailto:info@fryingzone.ru" className="hover:text-foreground transition-colors">
+                  info@fryingzone.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+79991234567" className="hover:text-foreground transition-colors">
+                  +7 (999) 123-45-67
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="https://t.me/fryingzone" className="hover:text-foreground transition-colors">
                   Телеграм
                 </a>
               </li>
@@ -70,7 +71,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Пространство. Все права защищены.</p>
+          <p>© 2026 Зона Жарки. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности

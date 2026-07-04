@@ -120,8 +120,8 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/hously-background.png"
-          alt="Минималистичный архитектурный интерьер"
+          src="https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/b7b87ae9-65de-438b-8a52-2e1c4652c3f2.jpg"
+          alt="Мангал в саду на закате"
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -137,23 +137,25 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Архитектура и дизайн интерьеров"}</p>
+          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">
+            {"@fryingzone"} <span className="normal-case tracking-normal text-secondary/70">· Зона Жарки</span>
+          </p>
 
           <h1
             ref={titleRef}
             className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
           >
-            {"Пространства,"}
+            {"Мангалы"}
             <br />
-            <span className="text-orange-200">{"которые вдохновляют"}</span>
+            <span className="text-orange-200">{"от производителя"}</span>
           </h1>
         </div>
       </div>
 
       <div className="absolute inset-0 z-20 pointer-events-none">
         <img
-          src="/images/hously-foreground.png"
-          alt="Мраморная кухонная столешница"
+          src="https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/44a6deae-4fc3-44d9-92d1-fd5c94e0ebef.jpg"
+          alt="Шашлык на углях"
           className="w-full h-full object-cover object-center"
         />
       </div>
