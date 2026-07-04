@@ -51,13 +51,13 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="tel:+79991234567" className="hover:text-foreground transition-colors">
-                  +7 (999) 123-45-67
+                <a href="tel:+79282398149" className="hover:text-foreground transition-colors">
+                  +7 (928) 239-81-49
                 </a>
               </li>
               <li>
-                <a href="https://t.me/fryingzone" className="hover:text-foreground transition-colors">
-                  Телеграм
+                <a href="https://max.ru/u/+79282398149" className="hover:text-foreground transition-colors">
+                  Мах
                 </a>
               </li>
               <li>
