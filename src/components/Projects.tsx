@@ -3,6 +3,15 @@ import { ArrowUpRight } from "lucide-react"
 
 const projects = [
   {
+    id: 0,
+    title: "Мангал «Всё Включено»",
+    category: "Раковина, 2 жаровни, ракетная печь, дровница",
+    location: "280×48×90 см",
+    year: "63 000 ₽",
+    image: "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/bucket/a2c2933f-7e1b-4ecb-9afe-ccac0f1b579c.jpeg",
+    isNew: true,
+  },
+  {
     id: 1,
     title: "Мангал «Классик»",
     category: "Складной",
@@ -105,6 +114,11 @@ export function Projects() {
               onMouseLeave={() => setHoveredId(null)}
             >
               <div ref={(el) => (imageRefs.current[index] = el)} className="relative overflow-hidden aspect-[4/3] mb-6">
+                {project.isNew && (
+                  <span className="absolute top-4 left-4 z-10 bg-orange-200 text-foreground text-xs font-medium tracking-wide uppercase px-3 py-1.5 rounded-full">
+                    Новинка
+                  </span>
+                )}
                 <img
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}
