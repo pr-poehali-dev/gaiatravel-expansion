@@ -5,7 +5,7 @@ const projects = [
   {
     id: 0,
     title: "Мангал «Всё Включено»",
-    category: "Раковина, 2 жаровни, ракетная печь, дровница",
+    category: "Раковина, 2 столешницы, жаровня, ракетная печь, дровница",
     location: "280×48×90 см",
     year: "63 000 ₽",
     images: [
@@ -18,19 +18,26 @@ const projects = [
   },
   {
     id: 1,
-    title: "Мангал «Классик»",
-    category: "Складной",
-    location: "Сталь 3 мм",
-    year: "от 6 900 ₽",
-    images: ["https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/b11ed849-3c36-428f-bb00-c56668d38d74.jpg"],
+    title: "Мангал «Мини»",
+    category: "Мангал из стали, крышка",
+    location: "59×39 см",
+    year: "7 000 ₽",
+    images: [
+      "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/bucket/ed208f0c-0192-4944-b885-a7b0f806e0e7.jpeg",
+      "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/bucket/2939256f-2d03-4836-b40a-59769bcc928f.jpeg",
+      "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/bucket/611be8da-4d80-4ea8-8e25-3b91922b7ec0.jpeg",
+    ],
   },
   {
     id: 2,
-    title: "Мангал «Дачник»",
-    category: "Стационарный с крышей",
-    location: "Сталь 4 мм",
-    year: "от 24 900 ₽",
-    images: ["https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/files/a063bc66-151e-4316-8a7d-59e35e39dd0d.jpg"],
+    title: "Мангал «Зигзаг»",
+    category: "Мангал из стали, узорчатая подошва",
+    location: "150×47×86 см",
+    year: "20 000 ₽",
+    images: [
+      "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/bucket/863280e2-9b49-4daa-95ad-75a5c4883798.jpeg",
+      "https://cdn.poehali.dev/projects/b0762b92-fc27-4bcb-b289-ae8eaef5bae7/bucket/d3f84337-2285-4191-b753-a549ec622663.jpeg",
+    ],
   },
   {
     id: 3,
